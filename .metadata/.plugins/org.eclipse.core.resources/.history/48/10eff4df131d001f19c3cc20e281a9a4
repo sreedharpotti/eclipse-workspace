@@ -1,0 +1,5 @@
+Feature: Testing REST API
+
+  Scenario: Send GET request to API
+    When I send a GET request to "http://example.com/api"
+    Then the response status code should be 200

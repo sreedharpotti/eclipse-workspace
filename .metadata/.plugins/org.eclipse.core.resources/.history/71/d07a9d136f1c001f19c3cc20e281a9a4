@@ -1,0 +1,13 @@
+package com.bar.restapitest;
+
+import org.testng.annotations.Test;
+
+public class SOAPTest {
+	
+	@Test
+	public void SoapReq() {
+		
+		
+	}
+
+}

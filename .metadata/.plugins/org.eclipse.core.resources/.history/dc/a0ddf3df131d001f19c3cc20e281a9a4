@@ -1,0 +1,15 @@
+package steps;
+
+import io.cucumber.java.en.When;
+import io.restassured.response.Response;
+
+public class StepDefinitions {
+	
+	private Response response;
+	
+	@When("^I send a GET request to "\"([^\"]*)\"$")
+	public void sendGetRequest(String RequestURL) {
+		
+	}
+
+}

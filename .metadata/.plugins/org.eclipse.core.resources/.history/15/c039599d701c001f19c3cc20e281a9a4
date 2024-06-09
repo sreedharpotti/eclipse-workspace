@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv=\”http://schemas.xmlsoap.org/soap/envelope/\” “ +
+                            “xmlns:web=\”http://www.example.com/webservice\”>” +
+                            “<soapenv:Header/>” +
+                            “<soapenv:Body>” +
+                            “<web:YourSoapRequest>” +
+                            “<web:Parameter1>Value1</web:Parameter1>” +
+                            “<web:Parameter2>Value2</web:Parameter2>” +
+                            “</web:YourSoapRequest>” +
+                            “</soapenv:Body>” +
+                            “</soapenv:Envelope>”

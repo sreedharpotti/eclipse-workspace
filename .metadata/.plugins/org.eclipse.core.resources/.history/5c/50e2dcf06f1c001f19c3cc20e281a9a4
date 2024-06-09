@@ -1,0 +1,33 @@
+package com.bar.restapitest;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import org.testng.annotations.Test;
+
+@Test
+public class SOAPTest {
+	
+	@Test
+	public void SoapReq() {
+		
+		try {
+			//FileReader fileRead = new FileReader("C:\\Users\\sreed\\eclipse-workspace\\restapitest\\src\\test\\resources\\soapRequest.xml");
+			String filePath = "C:\\Users\\sreed\\eclipse-workspace\\restapitest\\src\\test\\resources\\soapRequest.xml";
+			String content = new String(Files.readAllBytes(Paths.get(filePath)));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+
+}

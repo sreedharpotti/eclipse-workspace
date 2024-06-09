@@ -1,0 +1,5 @@
+Feature: Testing REST API
+
+  Scenario: Send GET request to API with negative scenarios
+    When I send wrong GET request to "http://www.anapioficeandfire.com/apis/houses?region=The Vale"
+    Then the failed response status code should be 404

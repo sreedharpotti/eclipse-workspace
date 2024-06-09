@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T17:47:56 EDT" name="Default suite" finished-at="2024-05-27T17:47:59 EDT" duration-ms="2540">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T17:47:56 EDT" name="Default test" finished-at="2024-05-27T17:47:59 EDT" duration-ms="2540">
+      <class name="com.bar.restapitest.RestAPITestGET">
+        <test-method signature="testAPI()[pri:0, instance:com.bar.restapitest.RestAPITestGET@79e4c792]" started-at="2024-05-27T17:47:56 EDT" name="testAPI" finished-at="2024-05-27T17:47:59 EDT" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAPI -->
+      </class> <!-- com.bar.restapitest.RestAPITestGET -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
